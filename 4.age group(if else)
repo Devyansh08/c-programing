@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int age;
+    printf("Enter the age of person: ");
+    scanf("%d",&age);
+
+    if(age<1){
+        printf("you are in process");
+    }else if (age<13){
+        printf("you are an child");
+    }else if (age<60){
+        printf("you are a adult ");
+    }else{
+       printf(" you are a senior");
+    }
+    return 0;
+
+}
